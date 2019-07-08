@@ -1,0 +1,2 @@
+# DjangoPrjoect
+Django Project Exercise
