@@ -38,7 +38,7 @@ class Goods(models.Model):
     goods_number = models.IntegerField(verbose_name='商品数量库存')
     goods_description = models.TextField(verbose_name='产品描述')
     goods_date = models.DateField(verbose_name='出厂日期')
-    goods_safeDate = models.DateField(verbose_name='保质期')
+    goods_safeDate = models.IntegerField(verbose_name='保质期')
     store_id = models.ManyToManyField(to=Store,verbose_name="商品店铺")#商品和店铺是多对多关系
 
 #商品图片
